@@ -20,4 +20,8 @@ To run your tests
 
 ### 401 Data Structures, Code Challenges
 
-- Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+#### [Python 401](python/README.md)
+
+*  [**1: array-reverse**](python/docs/array-reverse/README.md)
+*  [**2: array-insert-shift**](python/docs/array-insert-shift/README.md)
+*  [**3: array-binary-search**](python/docs/array-binary-search/README.md)
