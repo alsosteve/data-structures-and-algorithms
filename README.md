@@ -22,7 +22,12 @@ To run your tests
 
 #### [Python 401](python/README.md)
 
-*  [**1: array-reverse**](python/docs/array-reverse/README.md)
-*  [**2: array-insert-shift**](python/docs/array-insert-shift/README.md)
-*  [**3: array-binary-search**](python/docs/array-binary-search/README.md)
-*  [**5: Singly Linked Lists**](python/docs/linked_list/README.md)
+* [**1: array-reverse**](python/docs/array-reverse/README.md)
+* [**2: array-insert-shift**](python/docs/array-insert-shift/README.md)
+* [**3: array-binary-search**](python/docs/array-binary-search/README.md)
+
+
+* [**5: Singly Linked Lists**](python/docs/linked_list/README.md)
+* [**6: linked_list_insertions**](python/docs/linked_list_insertions/README.md)
+* [**7: linked_list_kth**](python/docs/linked_list_kth/README.md)
+* [**8: linked_list_zip**](python/docs/linked_list_zip/README.md)
