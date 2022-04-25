@@ -25,3 +25,4 @@ To run your tests
 *  [**1: array-reverse**](python/docs/array-reverse/README.md)
 *  [**2: array-insert-shift**](python/docs/array-insert-shift/README.md)
 *  [**3: array-binary-search**](python/docs/array-binary-search/README.md)
+*  [**5: Singly Linked Lists**](python/docs/linked_list/README.md)
