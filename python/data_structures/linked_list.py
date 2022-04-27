@@ -58,7 +58,7 @@ class LinkedList:
                         after = current.next
                         current.next = Node(value, after)
                         return Node(value, after)
-                current = current.next
+                    current = current.next
         except:
             raise TargetError
 
@@ -67,11 +67,12 @@ class LinkedList:
         current = self.head
         try:
             while current.value:
+
                 if current.value == target:
                     after = current.next
                     current.next = Node(value, after)
                     return Node(value, after)
-            current = current.next
+                current = current.next
         except:
             raise TargetError
 
