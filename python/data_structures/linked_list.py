@@ -76,5 +76,25 @@ class LinkedList:
             raise TargetError
 
 
+    def kth_from_end(self, target):
+        # Returns the node’s value that is k places from the tail of the linked list.
+        current = self.head
+        length = 0
+
+        counter = self.head
+        while counter.next:
+            length += 1
+            counter = counter.next
+
+        if length < target:
+            raise TargetError
+        try:
+            for i in range(length-target):
+                current = current.next
+            return current.value
+
+        except:
+            raise TargetError
+
 class TargetError(Exception):
     pass
