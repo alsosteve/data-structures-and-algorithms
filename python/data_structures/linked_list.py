@@ -76,23 +76,25 @@ class LinkedList:
             raise TargetError
 
 
-def test_kth_from_end_zero(self):
-    """
-    This method will take in a number as an argument (k)
-    Then the method will return the node's value that is the k'th index from the end of the list
-    """
-    if k >= 0:
+    def kth_from_end(self, target):
+        # Returns the node’s value that is k places from the tail of the linked list.
         current = self.head
-        length = self.find_length_of_linked_list()
-        target = length - k
+        length = 0
 
-        if target < 1:
+        counter = self.head
+        while counter.next:
+            length += 1
+            counter = counter.next
+
+        if length < target:
             raise TargetError
-        for i in range(1, target):
-            current = current.next
-        return current.value
-    else:
-        raise TargetError
+        try:
+            for i in range(length-target):
+                current = current.next
+            return current.value
+
+        except:
+            raise TargetError
 
 class TargetError(Exception):
     pass
