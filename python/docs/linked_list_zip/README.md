@@ -27,7 +27,9 @@ Write the following method for the Linked List class:
 | [1] -> [3] -> [2] -> null	[5] -> [9] -> null	|	[1] -> [5] -> [3] -> [9] -> [2] -> null	|
 
 ## Unit Tests
-On this, and all future challenges, write tests for any cases that help you ensure your code is working as expected. Think through different edge cases to determine what tests will ensure your code is covered.
+- lists of even length
+- lists of diffrent length
+- one empty list
 
 ## Stretch Goal
 Implement another function that merges two sorted linked lists into a single sorted linked list.
