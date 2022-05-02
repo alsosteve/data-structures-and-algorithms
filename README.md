@@ -31,3 +31,5 @@ To run your tests
 * [**6: linked_list_insertions**](python/docs/linked_list_insertions/README.md)
 * [**7: linked_list_kth**](python/docs/linked_list_kth/README.md)
 * [**8: linked_list_zip**](python/docs/linked_list_zip/README.md)
+
+* [**10: Stacks and Queues**](python/docs/stack_and_queue/README.md)
