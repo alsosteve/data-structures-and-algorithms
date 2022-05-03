@@ -1,7 +1,7 @@
 # [Data Structures and Algorithms](https://alsosteve.github.io/data-structures-and-algorithms/)
 ## [Language: Python](https://alsosteve.github.io/data-structures-and-algorithms/python/)
 
-# Stack and a Queue
+# Stack and a Queue: Pseudo Queue
 ## Feature Tasks
 Create a new class called pseudo queue. Class should function as a queue without using the existing `Queue` class.  Utilize 2 `Stack` instances to create and manage the queue.
 
@@ -16,7 +16,7 @@ Create a new class called pseudo queue. Class should function as a queue without
 - Extracts a value from the PseudoQueue, using a first-in, first-out approach.h
 
 ## Whiteboard Process
-![challenge10](10.png)
+![challenge11](11.png)
 
 ## Examples
 
