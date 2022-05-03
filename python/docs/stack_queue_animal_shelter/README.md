@@ -35,3 +35,4 @@ none
 If a cat or dog isn’t preferred, return whichever animal has been waiting in the shelter the longest.
 
 ## Approach & Efficiency
+My origional whiteboard didn't work so I scrapped it and tried the method explained by JB to complete the challenge.
