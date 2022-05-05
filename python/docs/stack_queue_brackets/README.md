@@ -45,4 +45,4 @@ There are 3 types of brackets:
 ## Stretch Goal
 None
 ## Approach & Efficiency
-This one was too hard for me. My solution was a `O(N^N)` solution so I asked my classmates what they came up with instead.
+This one was too hard for me. My solution was a `O(N^N)` solution so I asked my classmates what they came up with instead. Emily helpped me write this answer but I'm eventually going to come back to this challenge and solve it my own way.
