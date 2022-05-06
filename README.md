@@ -34,5 +34,5 @@ To run your tests
 
 * [**10: Stacks and Queues**](python/docs/stack_and_queue/README.md)
 * [**11: Stacks: Pseudo Queues**](python/docs/stack_queue_pseudo/README.md)
-* [**12: Multi Bracket Validation**](python/docs/stack_queue_brackets/README.md)
-* [**13: Animal Shelter**](python/docs/stack_queue_animal_shelter/README.md)
+* [**12: Animal Shelter**](python/docs/stack_queue_animal_shelter/README.md)
+* [**13: Multi Bracket Validation**](python/docs/stack_queue_brackets/README.md)
