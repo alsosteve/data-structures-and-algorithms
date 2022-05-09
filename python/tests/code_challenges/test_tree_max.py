@@ -39,3 +39,13 @@ def test_empty_tree():
     expected = None
 
     assert actual == expected
+
+# @pytest.mark.skip("TODO")
+def test_single_node_tree():
+    tree = BinaryTree()
+    tree.root = Node(1)
+
+    actual = tree.find_maximum_value()
+    expected = 1
+
+    assert actual == expected

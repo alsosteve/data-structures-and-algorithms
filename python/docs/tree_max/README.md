@@ -31,3 +31,4 @@ test described in examples
 None
 
 ## Approach & Efficiency
+I had to rewrite my algorythm and code a few times because my solution was failing.
