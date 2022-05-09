@@ -25,7 +25,7 @@ Find the maximum value stored in the tree. You can assume that the values stored
 `11`
 
 ## Unit Tests
-
+test described in examples
 
 ## Stretch Goal
 None
