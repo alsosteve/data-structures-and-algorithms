@@ -47,7 +47,7 @@ def test_post_order(tree):
     assert actual == expected
 
 
-# @pytest.fixture
+@pytest.fixture
 def tree():
     """
           a
