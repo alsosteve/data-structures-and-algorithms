@@ -1,10 +1,11 @@
 from data_structures.queue import Queue
+from code_challenges.tree_breadth_first import breadth_first
 
 class Node:
-    def __init__(self, value):
+    def __init__(self, value, left=None, right=None):
         self.value = value
-        self.left = None
-        self.right = None
+        self.left = left
+        self.right = right
 
 
 class BinaryTree:
@@ -136,3 +137,6 @@ class BinaryTree:
                 return
             else:
                 breadth.enqueue(front.right)
+
+    def breadth_first(self):
+        return breadth_first(self)
