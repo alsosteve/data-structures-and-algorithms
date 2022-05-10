@@ -1,3 +1,5 @@
+from data_structures.queue import Queue
+
 class Node:
     def __init__(self, value):
         self.value = value
@@ -108,3 +110,19 @@ class BinaryTree:
             return walk(root.right, max)
 
         return walk(self.root, self.root.value)
+
+    def add(self, value):
+        q = Queue()
+        def walk(root, new_node):
+            # base case
+            if not root:
+                return
+            
+            
+        new_node = Node(value)
+        if not self.root:
+            self.root = new_node
+            q.enqueue(new_node)
+            return
+
+        walk(self.root, new_node)
