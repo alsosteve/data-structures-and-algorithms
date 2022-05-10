@@ -112,17 +112,27 @@ class BinaryTree:
         return walk(self.root, self.root.value)
 
     def add(self, value):
-        q = Queue()
-        def walk(root, new_node):
-            # base case
-            if not root:
-                return
-            
-            
-        new_node = Node(value)
+
+        node = Node(value)
+
         if not self.root:
-            self.root = new_node
-            q.enqueue(new_node)
+            self.root = node
             return
 
-        walk(self.root, new_node)
+        breadth = Queue()
+
+        breadth.enqueue(self.root)
+
+        while not breadth.is_empty():
+            front = breadth.dequeue()
+            if not front.left:
+                front.left = node
+                return
+            else:
+                breadth.enqueue(front.left)
+
+            if not front.right:
+                front.right = node
+                return
+            else:
+                breadth.enqueue(front.right)

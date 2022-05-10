@@ -2,6 +2,7 @@ from data_structures.binary_tree import BinaryTree
 from data_structures.queue import Queue
 
 def breadth_first(tree):
+    #print(tree.root.value)
     if not tree or tree.root is None:
         return []
     else:
@@ -13,12 +14,12 @@ def breadth_first(tree):
         while not q.is_empty():
             front = q.dequeue()
             list.append(front.value)
-
+            print(list)
             if front.left:
                 q.enqueue(front.left)
             if front.right:
                 q.enqueue(front.right)
-
+        print(f"list: {list}")
         return list
 
 
