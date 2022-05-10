@@ -26,3 +26,4 @@ Challenge Type: Code Challenge / Algorithm
 None
 
 ## Approach & Efficiency
+I solved this by using the pseudocode provided in the trees reading notes. It was basically a walk through.
