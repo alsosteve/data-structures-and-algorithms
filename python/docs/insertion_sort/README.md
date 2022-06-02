@@ -11,7 +11,7 @@ You may review an example document [HERE](https://codefellows.github.io/common_c
 
 ## Pseudocode
 
-``` python
+```
   InsertionSort(int[] arr)
 
     FOR i = 1 to arr.length
@@ -24,6 +24,26 @@ You may review an example document [HERE](https://codefellows.github.io/common_c
         j <-- j - 1
 
       arr[j + 1] <-- temp
+```
+
+## Code
+
+``` python
+def insertion_sort(list):
+
+    for i in range(len(list)):
+
+      j = i - 1
+      temp = list[i]
+
+      while j >= 0 and temp < list[j]:
+        list[j + 1] = list[j]
+        j -= 1
+
+      list[j + 1] = temp
+
+    return list
+
 ```
 
 ## Sample Arrays

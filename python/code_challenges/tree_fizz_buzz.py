@@ -1,17 +1,17 @@
-from data_structures.kary_tree import KaryTree
+from data_structures.kary_tree import KaryTree, Node
 from data_structures.queue import Queue
 
 def fizz_buzz_tree(tree):
     q = Queue()
-    new_tree = KaryTree(tree.root)
-
+    new_tree = KaryTree(Node(tree.root.value))
+    print(new_tree.root.children)
     q.enqueue(new_tree.root)
     while not q.is_empty():
         front = q.dequeue()
         front.value = function(front.value)
         for i in front.children:
             q.enqueue(i)
-
+    print(new_tree == tree)
     return new_tree
 
 
