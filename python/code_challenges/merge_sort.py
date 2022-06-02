@@ -13,7 +13,7 @@ def merge_sort(list):
 def merge(left, right, list):
     i, j, k = 0, 0, 0
     while i < len(left) and j < len(right):
-        if left[i] <= right[i]:
+        if left[i] <= right[j]:
             list[k] = left[i]
             i += 1
         else:
@@ -22,7 +22,12 @@ def merge(left, right, list):
         k += 1
 
     if i == len(left):
+        while j < len(right):
+            list[k] = right[j]
+            j += 1
+            k += 1
+    else:
         while i < len(left):
             list[k] = left[i]
-            i += 1
-            k += 1
+            i = i + 1
+            k = k + 1
