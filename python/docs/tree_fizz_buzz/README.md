@@ -24,8 +24,11 @@ Determine whether or not the value of each node is divisible by 3, 5 or both. Cr
 None
 
 ## Unit Tests
+* return correct values
+* check if old tree was altered or not
 
 ## Stretch Goal
 None
 
 ## Approach & Efficiency
+I had to figure out how to walk through a K-array tree using the provided data structure code. Then I just pushed new values into a new tree.
