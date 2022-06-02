@@ -9,6 +9,14 @@ Once you are done with your article, code a working, tested implementation of In
 
 You may review an example document [HERE](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-26/solutions/BLOG)
 
+## Algorithm
+- write function that takes in a list
+- for loop that iterates length of list number of times
+  - new variables J is i - 1
+  - new variables temp is value at index
+  - while loop that moves number into place
+- return list
+
 ## Pseudocode
 
 ```
