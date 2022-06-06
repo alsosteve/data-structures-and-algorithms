@@ -45,3 +45,8 @@ To run your tests
 * [**26: Insertion Sort](sorting/insertion/README.md)
 * [**27: Merge Sort](sorting/merge/README.md)
 * [**28: Roman Numerals](python/docs/roman_numerals/README.md)
+
+* [**30: Hash Table](python/docs/hashtable/README.md)
+* [**31: Hash Table: Repeated Word](python/docs/hashtable_repeated_word/README.md)
+* [**32: Tree Intersection](python/docs/tree_intersection/README.md)
+* [**33: Hash Table: Left Join](python/docs/hashtable_left_join/README.md)
