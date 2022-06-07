@@ -52,7 +52,7 @@ To run your tests
 * [**33: Hash Table: Left Join](python/docs/hashtable_left_join/README.md)
 
 
-* [**35: Graphs](python/docs/graph)
+* [**35: Graphs](python/docs/graph/README.md)
 * [**36: Graphs: Breadth First](python/docs/graph_breadth_first/README.md)
 * [**37: Graphs: Buissness Trip](python/docs/graph_business_trip/README.md)
 * [**38: Graphs: Depth First](python/docs/graph_depth_first/README.md)
