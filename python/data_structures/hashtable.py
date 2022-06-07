@@ -11,7 +11,7 @@ class Hashtable:
         self.buckets = [None] * self.size
 
     def hash(self, key):
-
+        #  Returns: Index in the collection for that key
         sum_of_chars = 0
 
         for char in key:
@@ -24,6 +24,7 @@ class Hashtable:
         return index
 
     def set(self, key, value):
+        # hash the key, and set the key and value pair in the table
         index = self.hash(key)
 
         bucket = self.buckets[index]
@@ -36,6 +37,7 @@ class Hashtable:
         bucket.insert((key, value))
 
     def get(self, key):
+        # Returns: Value associated with that key
         index = self.hash(key)
         bucket = self.buckets[index]
 
