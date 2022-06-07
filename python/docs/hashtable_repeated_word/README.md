@@ -24,7 +24,7 @@ Challenge Type: Code Challenge / Algorithm
 - empty string
 - no repeats
 - one repeat
-- multyple repeats
+- multiple repeats
 - case specific
 - punctuation
 
