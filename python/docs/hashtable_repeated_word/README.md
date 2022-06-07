@@ -33,3 +33,4 @@ Challenge Type: Code Challenge / Algorithm
 - Modify your function to return a list of the words most frequently used in the provided string
 
 ## Approach & Efficiency
+I made a copy of the get methof and tweaked it to return the repeated key instead of adding to the bucket.

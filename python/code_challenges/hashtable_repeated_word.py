@@ -3,6 +3,7 @@ from data_structures.linked_list import LinkedList
 import re
 
 def first_repeated_word(str):
+    # finds the first word to occur more than once in a string
     str = str.lower()
     table = Hashtable()
     str = re.sub(r'[^\w\s]','', str) # remove Punctuation
