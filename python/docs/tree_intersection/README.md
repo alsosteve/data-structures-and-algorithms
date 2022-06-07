@@ -1,7 +1,7 @@
 # [Data Structures and Algorithms](https://alsosteve.github.io/data-structures-and-algorithms/)
 ## [Language: Python](https://alsosteve.github.io/data-structures-and-algorithms/python/)
 
-# Hashmap: Tree Intersection
+# Tree Intersection
 ## Feature Tasks
 Find common values in 2 binary trees.
 
