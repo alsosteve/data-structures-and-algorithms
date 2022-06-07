@@ -50,3 +50,9 @@ To run your tests
 * [**31: Hash Table: Repeated Word](python/docs/hashtable_repeated_word/README.md)
 * [**32: Tree Intersection](python/docs/tree_intersection/README.md)
 * [**33: Hash Table: Left Join](python/docs/hashtable_left_join/README.md)
+
+
+* [**35: Graphs](python/docs/graph)
+* [**36: Graphs: Breadth First](python/docs/graph_breadth_first/README.md)
+* [**37: Graphs: Buissness Trip](python/docs/graph_business_trip/README.md)
+* [**38: Graphs: Depth First](python/docs/graph_depth_first/README.md)
