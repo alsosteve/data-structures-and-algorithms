@@ -52,3 +52,19 @@ class Hashtable:
             current = current.next
 
         return None
+
+    def contains(self, key):
+        # Returns: Boolean, indicating if the key exists in the table
+        index = self.hash(key)
+        bucket = self._buckets[index]
+
+        if bucket is None:
+            return False
+
+        current = bucket.head
+
+        while current:
+            if current.value[0] == key:
+                return True
+            current = current.next
+        return False
