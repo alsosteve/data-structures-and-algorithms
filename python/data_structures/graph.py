@@ -1,3 +1,5 @@
+from data_structures.queue import Queue
+
 class Graph:
     """
     A graph method
@@ -19,7 +21,7 @@ class Graph:
 
     def get_nodes(self):
         # Returns all of the nodes in the graph as a collection
-        return self._adjacency_list.keys()
+        return list(self._adjacency_list.keys())
 
     def add_edge(self, start_vertex, end_vertex, weight=0):
         # Adds a new edge between two nodes
@@ -35,6 +37,24 @@ class Graph:
     def get_neighbors(self, vertex):
         # Returns a collection of edges connected to a given node
         return self._adjacency_list[vertex]
+
+    def breadth_first(self, node):
+        # Return: A collection of nodes in the order they were visited
+        collection = []
+        queue = Queue()
+        visited = set()
+
+        queue.enqueue(node)
+        visited.add(node)
+        while not queue.is_empty():
+            check = queue.dequeue()
+            collection.append(check.value)
+
+            for neighbors in self.get_neighbors(check):
+                if neighbors.vertex not in visited:
+                    visited.add(neighbors.vertex)
+                    queue.enqueue(neighbors.vertex)
+        return collection
 
 class Vertex:
     def __init__(self, value):
