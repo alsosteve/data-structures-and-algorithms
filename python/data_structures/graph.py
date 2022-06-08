@@ -56,6 +56,29 @@ class Graph:
                     queue.enqueue(neighbors.vertex)
         return collection
 
+    def depth_first_search(self, node, collection = []):
+        # Return: A collection of nodes in their pre-order depth-first traversal order
+        collection = collection
+        queue = Queue()
+        visited = set()
+
+        if node:
+            queue.enqueue(node)
+            visited.add(node)
+            while not queue.is_empty():
+                check = queue.dequeue()
+
+                if check.value not in collection:
+                    collection.append(check.value)
+                    self.depth_first_search(check, collection)
+                else:
+                    for neighbors in self.get_neighbors(check):
+                        if neighbors.vertex not in visited:
+                            visited.add(neighbors.vertex)
+                            queue.enqueue(neighbors.vertex)
+                            # print(check.value)
+        return collection
+
 class Vertex:
     def __init__(self, value):
         self.value = value

@@ -2,7 +2,7 @@ import pytest
 from data_structures.graph import Graph, Vertex
 
 
-@pytest.mark.skip("TODO")
+# @pytest.mark.skip("TODO")
 def test_full(graph_and_root):
     graph, root = graph_and_root
     actual = graph.depth_first_search(root)
@@ -11,7 +11,7 @@ def test_full(graph_and_root):
     assert actual == expected
 
 
-@pytest.mark.skip("TODO")
+# @pytest.mark.skip("TODO")
 def test_empty():
     graph = Graph()
     node = Vertex("some other node")
@@ -20,11 +20,15 @@ def test_empty():
     assert actual == expected
 
 
-@pytest.mark.skip("TODO")
+# @pytest.mark.skip("TODO")
 def test_island_empty():
     graph = Graph()
+    print(graph.size())
     lonely = graph.add_node("lonely")
+    print(graph.size())
     actual = graph.depth_first_search(lonely)
+    print(graph.size())
+    print(actual)
     expected = ["lonely"]
     assert actual == expected
 
