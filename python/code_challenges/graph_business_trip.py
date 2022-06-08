@@ -19,5 +19,5 @@ def direct_flights(graph, names):
                         weight += edge.weight
 
     # returns
-    if weight == 0: return False, weight
-    else: return True, weight
+    return weight != 0, weight
+
